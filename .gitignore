@@ -1,5 +1,2 @@
-src/libfoo/.xmake/*
-src/libfoo/build/*
-
 src/test/.xmake/*
 src/test/build/*
