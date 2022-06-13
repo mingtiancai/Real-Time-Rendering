@@ -15,12 +15,13 @@ target("REAL-TIME-RENDERING")
     set_kind("binary")
     set_languages("c++17")
     add_files(
-        "main.cpp",
-        "glad.c"
+        "main.cpp"
         ) 
     add_packages("glfw3")
     add_packages("X11")
     add_packages("boost")
+
+    add_deps("glad")
 
     after_build(function (target)
         print("target name: %s", target:name())

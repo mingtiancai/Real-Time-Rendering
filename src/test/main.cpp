@@ -598,7 +598,7 @@ static inline void quat_from_mat4x4(quat q, mat4x4 M)
 #include <stdlib.h>
 #include <math.h>
 
-#include <glad/glad.h>
+#include "../3rd/glad/include/glad.h"
 #define GLFW_INCLUDE_NONE
 #include <GLFW/glfw3.h>
 
