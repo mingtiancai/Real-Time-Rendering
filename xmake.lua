@@ -10,5 +10,4 @@ add_requires("glfw3")
 add_requires("opengl")
 add_requires("X11")
 
-
 includes("src")
