@@ -1,10 +1,3 @@
-add_rules("mode.debug", "mode.release")
-
-add_requires("boost")
-add_requires("glfw3")
-add_requires("opengl")
-add_requires("X11")
-
 target("testBoost")
     set_kind("binary")
     set_languages("c++17")

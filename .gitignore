@@ -1,2 +1,5 @@
+.xmake/*
+build/*
+
 src/test/.xmake/*
 src/test/build/*
